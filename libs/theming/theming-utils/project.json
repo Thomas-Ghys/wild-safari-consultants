@@ -1,0 +1,20 @@
+{
+  "name": "theming-utils",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/theming/theming-utils/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["type:utils", "domain:theming"],
+  "targets": {
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../../coverage/libs/theming/theming-utils"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

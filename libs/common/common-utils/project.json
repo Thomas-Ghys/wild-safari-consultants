@@ -1,0 +1,20 @@
+{
+  "name": "common-utils",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/common/common-utils/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": ["type:utils", "domain:common"],
+  "targets": {
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "reportsDirectory": "../../../coverage/libs/common/common-utils"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
