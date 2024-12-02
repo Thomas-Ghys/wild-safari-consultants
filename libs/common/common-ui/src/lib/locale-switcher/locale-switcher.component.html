@@ -1,0 +1,49 @@
+<div class="locale-switcher-container">
+	<button
+		class="locale-switcher-button"
+		(click)="localeSwitcherMenuState = !localeSwitcherMenuState"
+		cdkOverlayOrigin
+		#cdkOverlayButton="cdkOverlayOrigin">
+		<span class="material-symbols-outlined">translate</span>
+	</button>
+</div>
+
+<ng-template
+	cdkConnectedOverlay
+	[cdkConnectedOverlayOrigin]="cdkOverlayButton"
+	[cdkConnectedOverlayOpen]="localeSwitcherMenuState">
+	<div class="locale-switcher-menu-wrapper">
+		<section
+			class="locale-switcher-menu-item"
+			(click)="switchLocale('nl')"
+			[ngClass]="{
+				'locale-switcher-active':
+					this.locale.split('/').slice(-2, -1)[0] === 'nl'
+			}">
+			<div class="locale-switcher-menu-content">
+				<img src="flags/BEFlag.svg" />
+				<div
+					class="locale-switcher-menu-label"
+					i18n="@@locale-switcher.dutch">
+					Dutch
+				</div>
+			</div>
+		</section>
+		<section
+			class="locale-switcher-menu-item"
+			(click)="switchLocale('en')"
+			[ngClass]="{
+				'locale-switcher-active':
+					this.locale.split('/').slice(-2, -1)[0] === 'en'
+			}">
+			<div class="locale-switcher-menu-content">
+				<img src="flags/UKFlag.svg" />
+				<div
+					class="locale-switcher-menu-label"
+					i18n="@@locale-switcher.english">
+					English
+				</div>
+			</div>
+		</section>
+	</div>
+</ng-template>
