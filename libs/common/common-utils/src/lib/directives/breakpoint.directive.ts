@@ -1,14 +1,14 @@
-import { Directive, ElementRef, OnDestroy, OnInit } from '@angular/core';
+import {Directive, ElementRef, OnDestroy, OnInit} from '@angular/core';
 import {
 	BreakpointObserver,
 	Breakpoints,
-	BreakpointState,
+	BreakpointState
 } from '@angular/cdk/layout';
-import { Subject, takeUntil } from 'rxjs';
+import {Subject, takeUntil} from 'rxjs';
 
 @Directive({
 	selector: '[Breakpoint]',
-	standalone: true,
+	standalone: true
 })
 export class BreakpointDirective implements OnInit, OnDestroy {
 	private computationalBreakpoints: string[] = [
@@ -16,7 +16,7 @@ export class BreakpointDirective implements OnInit, OnDestroy {
 		'Small',
 		'Medium',
 		'Large',
-		'XLarge',
+		'XLarge'
 	];
 	private onDestroy$ = new Subject<boolean>();
 
@@ -32,7 +32,7 @@ export class BreakpointDirective implements OnInit, OnDestroy {
 				Breakpoints.Small,
 				Breakpoints.Medium,
 				Breakpoints.Large,
-				Breakpoints.XLarge,
+				Breakpoints.XLarge
 			])
 			.pipe(takeUntil(this.onDestroy$))
 			.subscribe((state: BreakpointState) => {

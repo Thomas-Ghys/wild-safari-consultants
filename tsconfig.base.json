@@ -14,7 +14,24 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@thomas-ghys.eu/common-data": [
+        "libs/common/common-data/src/index.ts"
+      ],
+      "@thomas-ghys.eu/common-ui": ["libs/common/common-ui/src/index.ts"],
+      "@thomas-ghys.eu/common-utils": [
+        "libs/common/common-utils/src/index.ts"
+      ],
+      "@thomas-ghys.eu/theming-data": [
+        "libs/theming/theming-data/src/index.ts"
+      ],
+      "@thomas-ghys.eu/theming-ui": [
+        "libs/theming/theming-ui/src/index.ts"
+      ],
+      "@thomas-ghys.eu/theming-utils": [
+        "libs/theming/theming-utils/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
