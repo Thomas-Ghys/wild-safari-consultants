@@ -1,0 +1,129 @@
+{
+  "name": "wild-safari-consultants",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/wild-safari-consultants/src",
+  "tags": ["type:shell", "domain:wild-safari-consultants"],
+  "i18n": {
+    "locales": {
+      "en": {
+        "baseHref": "/en/",
+        "translation": "apps/wild-safari-consultants/public/locales/messages.en.xlf"
+      },
+      "nl": {
+        "baseHref": "/nl/",
+        "translation": "apps/wild-safari-consultants/public/locales/messages.nl.xlf"
+      }
+    }
+  },
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:application",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/wild-safari-consultants",
+        "index": "apps/wild-safari-consultants/src/index.html",
+        "browser": "apps/wild-safari-consultants/src/main.ts",
+        "polyfills": ["zone.js", "@angular/localize/init"],
+        "tsConfig": "apps/wild-safari-consultants/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "i18nMissingTranslation": "error",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/wild-safari-consultants/public"
+          },
+          {
+            "glob": "**/locales/*",
+            "input": "apps/wild-safari-consultants/public/locales"
+          }
+        ],
+        "styles": [
+          {
+            "input": "apps/wild-safari-consultants/src/styles.scss"
+          },
+          {
+            "inject": true,
+            "input": "libs/theming/theming-utils/src/lib/theme-builder/theme-builder.scss"
+          }
+        ],
+        "scripts": []
+      },
+      "configurations": {
+        "en": {
+          "localize": ["en"]
+        },
+        "nl": {
+          "localize": ["nl"]
+        },
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "4kb",
+              "maximumError": "8kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "wild-safari-consultants:build:production"
+        },
+        "development": {
+          "buildTarget": "wild-safari-consultants:build:development"
+        },
+        "en": {
+          "buildTarget": "wild-safari-consultants:build:en"
+        },
+        "nl": {
+          "buildTarget": "wild-safari-consultants:build:nl"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "wild-safari-consultants:build",
+        "outputPath": "apps/wild-safari-consultants/public/locales",
+        "format": "xlf2"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/wild-safari-consultants/jest.config.ts"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "wild-safari-consultants:build",
+        "port": 4200,
+        "staticFilePath": "dist/apps/wild-safari-consultants/browser",
+        "spa": true
+      }
+    }
+  }
+}
