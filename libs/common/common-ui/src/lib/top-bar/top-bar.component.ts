@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LocaleSwitcherComponent } from '../locale-switcher/locale-switcher.component';
 import { ThemeSwitcherComponent } from '../theme-switcher/theme-switcher.component';
-import { RoutingService } from '@wild-safari-consultants/common-utils';
+import { RoutingService } from '@thomas-ghys.eu/common-utils';
 
 @Component({
 	selector: 'lib-top-bar',

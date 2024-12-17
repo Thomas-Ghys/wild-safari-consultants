@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FeatureContainerComponent} from '../feature-container/feature-container.component';
-import {RoutingService} from '@wild-safari-consultants/common-utils';
+import {RoutingService} from '@thomas-ghys.eu/common-utils';
 
 @Component({
 	selector: 'lib-page-404',

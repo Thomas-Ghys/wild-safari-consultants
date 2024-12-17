@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {BreakpointDirective} from '@wild-safari-consultants/common-utils';
+import {BreakpointDirective} from '@thomas-ghys.eu/common-utils';
 
 @Component({
 	selector: 'lib-navigation-item',

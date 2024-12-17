@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OverlayModule } from '@angular/cdk/overlay';
-import { CoreStore, Language } from '@wild-safari-consultants/common-data';
+import { CoreStore, Language } from '@thomas-ghys.eu/common-data';
 
 @Component({
 	selector: 'lib-locale-switcher',

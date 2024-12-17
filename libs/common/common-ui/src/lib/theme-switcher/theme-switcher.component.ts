@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AttributeService } from '@wild-safari-consultants/theming-utils';
-import { Theme } from '@wild-safari-consultants/theming-data';
+import { AttributeService } from '@thomas-ghys.eu/theming-utils';
+import { Theme } from '@thomas-ghys.eu/theming-data';
 
 @Component({
 	selector: 'lib-theme-switcher',
