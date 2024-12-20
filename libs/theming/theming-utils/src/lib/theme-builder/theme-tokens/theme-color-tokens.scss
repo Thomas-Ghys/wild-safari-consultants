@@ -34,9 +34,9 @@
 			--theme-color-inverse#{$key}-light: var(
 				--theme-color-ref-#{$key}80
 			);
-			--theme-color-#{$key}-fixed-light: var(--theme-color-ref-#{$key}90);
+			--theme-color-#{$key}-fixed-light: var(--theme-color-ref-#{$key}40);
 			--theme-color-on-#{$key}-fixed-light: var(
-				--theme-color-ref-#{$key}10
+				--theme-color-ref-#{$key}100
 			);
 			--theme-color-on-#{$key}-fixed-variant-light: var(
 				--theme-color-ref-#{$key}30
@@ -57,9 +57,9 @@
 				--theme-color-ref-#{$key}90
 			);
 			--theme-color-inverse#{$key}-dark: var(--theme-color-ref-#{$key}40);
-			--theme-color-#{$key}-fixed-dark: var(--theme-color-ref-#{$key}90);
+			--theme-color-#{$key}-fixed-dark: var(--theme-color-ref-#{$key}40);
 			--theme-color-on-#{$key}-fixed-dark: var(
-				--theme-color-ref-#{$key}10
+				--theme-color-ref-#{$key}100
 			);
 			--theme-color-on-#{$key}-fixed-variant-dark: var(
 				--theme-color-ref-#{$key}30

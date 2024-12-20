@@ -1,37 +1,45 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2015",
-    "module": "esnext",
-    "lib": ["es2020", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@thomas-ghys.eu/common-data": [
-        "libs/common/common-data/src/index.ts"
-      ],
-      "@thomas-ghys.eu/common-ui": ["libs/common/common-ui/src/index.ts"],
-      "@thomas-ghys.eu/common-utils": [
-        "libs/common/common-utils/src/index.ts"
-      ],
-      "@thomas-ghys.eu/theming-data": [
-        "libs/theming/theming-data/src/index.ts"
-      ],
-      "@thomas-ghys.eu/theming-ui": [
-        "libs/theming/theming-ui/src/index.ts"
-      ],
-      "@thomas-ghys.eu/theming-utils": [
-        "libs/theming/theming-utils/src/index.ts"
-      ]
-    }
-  },
-  "exclude": ["node_modules", "tmp"]
+	"compileOnSave": false,
+	"compilerOptions": {
+		"rootDir": ".",
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"target": "es2015",
+		"module": "esnext",
+		"lib": ["es2020", "dom"],
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"@thomas-ghys.eu/about-feature": [
+				"libs/about/about-feature/src/index.ts"
+			],
+			"@thomas-ghys.eu/about-ui": ["libs/about/about-ui/src/index.ts"],
+			"@thomas-ghys.eu/common-data": [
+				"libs/common/common-data/src/index.ts"
+			],
+			"@thomas-ghys.eu/common-ui": ["libs/common/common-ui/src/index.ts"],
+			"@thomas-ghys.eu/common-utils": [
+				"libs/common/common-utils/src/index.ts"
+			],
+			"@thomas-ghys.eu/home-feature": [
+				"libs/home/home-feature/src/index.ts"
+			],
+			"@thomas-ghys.eu/home-ui": ["libs/home/home-ui/src/index.ts"],
+			"@thomas-ghys.eu/theming-data": [
+				"libs/theming/theming-data/src/index.ts"
+			],
+			"@thomas-ghys.eu/theming-ui": [
+				"libs/theming/theming-ui/src/index.ts"
+			],
+			"@thomas-ghys.eu/theming-utils": [
+				"libs/theming/theming-utils/src/index.ts"
+			]
+		}
+	},
+	"exclude": ["node_modules", "tmp"]
 }

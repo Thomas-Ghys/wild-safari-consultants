@@ -1,5 +1,5 @@
 .top-bar-container {
-	background-color: var(--theme-color-primary);
+	background-color: var(--theme-color-secondary-fixed);
 	border-radius: var(--theme-shape-corner-none);
 	box-shadow: var(--theme-elevation-level0);
 	box-sizing: border-box;
@@ -26,6 +26,18 @@
 			height: 3.5rem;
 		}
 	}
+
+  .top-bar-title {
+    display: flex;
+    align-items: center;
+    font-family: var(--theme-typescale-display-large-font-family-name);
+    font-style: var(--theme-typescale-display-large-font-family-style);
+    font-weight: var(--theme-typescale-display-large-font-weight);
+    font-size: var(--theme-typescale-display-large-font-size);
+    line-height: var(--theme-typescale-display-large-line-height);
+    letter-spacing: var(--theme-typescale-display-large-letter-spacing);
+    color: var(--theme-color-primary-fixed);
+  }
 
 	.top-bar-interaction-wrapper {
 		display: flex;
