@@ -16,7 +16,8 @@
   }
 
   .navigation-wrappers {
-    grid-area: navigation;
+	  grid-area: navigation;
+	  width: inherit;
   }
 
   .content-wrapper {
@@ -24,6 +25,6 @@
     grid-area: content;
     height: 100%;
     overflow: hidden;
-    width: 100%;
+    width: inherit;
   }
 }
