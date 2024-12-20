@@ -3,7 +3,7 @@
 	i18n-featureName="@@contact.title">
 	<div Breakpoint class="contact-container">
 		<lib-qr-contact-card
-			[qrCode]="'contact/qr_code.jpeg'"
+			[qrCode]="'contact/whatsapp_qr.jpeg'"
 			[qrExtraDetail]="store.mobile()"
 			[qrLogo]="'logos/whatsappLogo.svg'"
 			class="contact-card"
@@ -11,6 +11,16 @@
 			i18n-qrTitle="@@contact.whatsapp"
 			qrPrefix="Mobile"
 			qrTitle="Whatsapp"
+		/>
+		<lib-qr-contact-card
+			[qrCode]="'contact/instagram_qr.jpeg'"
+			[qrExtraDetail]="store.instagram()"
+			[qrLogo]="'logos/whatsappLogo.svg'"
+			class="contact-card"
+			i18n-qrPrefix="@@contact-card.instagram"
+			i18n-qrTitle="@@contact.instagram"
+			qrPrefix="Instagram-handle"
+			qrTitle="Instagram"
 		/>
 	</div>
 </lib-feature-container>
