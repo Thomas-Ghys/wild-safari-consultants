@@ -1,5 +1,5 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
 @Component({
 	selector: 'lib-feature-container',
@@ -7,8 +7,8 @@ import { CommonModule } from '@angular/common';
 	imports: [CommonModule],
 	templateUrl: './feature-container.component.html',
 	styleUrl: './feature-container.component.scss',
-	changeDetection: ChangeDetectionStrategy.OnPush,
+	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FeatureContainerComponent {
-	@Input({ required: true }) public featureName: string = '';
+	@Input({required: true}) public featureName = '';
 }
