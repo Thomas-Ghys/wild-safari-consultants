@@ -4,7 +4,7 @@
   <unit id="about.title">
         <notes>
           <note category="location">libs/about/about-feature/src/lib/about/about.component.html:1</note>
-          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:15,17</note>
+          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
         </notes>
         <segment>
           <source>About</source>
@@ -21,6 +21,16 @@
           <target>Home</target>
         </segment>
       </unit>
+	  <unit id="explore.title">
+		  <notes>
+			  <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:15,17</note>
+			  <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:1</note>
+		  </notes>
+		  <segment>
+			  <source>Explore</source>
+			  <target>Our safaris</target>
+		  </segment>
+	  </unit>
       <unit id="page404.title">
         <notes>
           <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:2,3</note>
