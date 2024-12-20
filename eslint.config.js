@@ -62,7 +62,8 @@ module.exports = [
 								'domain:theming',
 								'domain:home',
 								'domain:about',
-								'domain:explore'
+								'domain:explore',
+								'domain:contact'
 							]
 						},
 						{
@@ -94,6 +95,13 @@ module.exports = [
 							sourceTag: 'domain:explore',
 							onlyDependOnLibsWithTags: [
 								'domain:explore',
+								'domain:common'
+							]
+						},
+						{
+							sourceTag: 'domain:contact',
+							onlyDependOnLibsWithTags: [
+								'domain:contact',
 								'domain:common'
 							]
 						}

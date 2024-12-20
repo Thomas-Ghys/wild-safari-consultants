@@ -14,6 +14,13 @@
 		navigationItemName="Explore"
 	/>
 	<lib-navigation-item
+		(navigationItemClicked)="navigateToRoute('contact')"
+		[navigationItemActive]="currentRoute() === 'contact'"
+		i18n-navigationItemName="@@contact.title"
+		navigationItemIcon="contact_page"
+		navigationItemName="Contact"
+	/>
+	<lib-navigation-item
 		(navigationItemClicked)="navigateToRoute('about-us')"
 		[navigationItemActive]="currentRoute() === 'about-us'"
 		i18n-navigationItemName="@@about.title"

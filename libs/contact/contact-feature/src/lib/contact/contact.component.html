@@ -1,0 +1,16 @@
+<lib-feature-container
+	featureName="Contact"
+	i18n-featureName="@@contact.title">
+	<div Breakpoint class="contact-container">
+		<lib-qr-contact-card
+			[qrCode]="'contact/qr_code.jpeg'"
+			[qrExtraDetail]="store.mobile()"
+			[qrLogo]="'logos/whatsappLogo.svg'"
+			class="contact-card"
+			i18n-qrPrefix="@@contact.mobile"
+			i18n-qrTitle="@@contact.whatsapp"
+			qrPrefix="Mobile"
+			qrTitle="Whatsapp"
+		/>
+	</div>
+</lib-feature-container>
