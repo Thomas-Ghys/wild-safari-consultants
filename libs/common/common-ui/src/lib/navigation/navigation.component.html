@@ -1,3 +1,16 @@
 <div class="navigation-container">
-
+	<lib-navigation-item
+		(navigationItemClicked)="navigateToRoute('home')"
+		[navigationItemActive]="currentRoute() === 'home'"
+		i18n-navigationItemName="@@home.title"
+		navigationItemIcon="home"
+		navigationItemName="Home"
+	/>
+	<lib-navigation-item
+		(navigationItemClicked)="navigateToRoute('about-us')"
+		[navigationItemActive]="currentRoute() === 'about-us'"
+		i18n-navigationItemName="@@about.title"
+		navigationItemIcon="domain"
+		navigationItemName="About"
+	/>
 </div>

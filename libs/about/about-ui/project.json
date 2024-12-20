@@ -1,0 +1,20 @@
+{
+	"name": "about-ui",
+	"$schema": "../../../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "libs/about/about-ui/src",
+	"prefix": "lib",
+	"projectType": "library",
+	"tags": ["type:ui", "domain:about"],
+	"targets": {
+		"test": {
+			"executor": "@nx/jest:jest",
+			"outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+			"options": {
+				"jestConfig": "libs/about/about-ui/jest.config.ts"
+			}
+		},
+		"lint": {
+			"executor": "@nx/eslint:lint"
+		}
+	}
+}
