@@ -37,6 +37,12 @@
     line-height: var(--theme-typescale-display-large-line-height);
     letter-spacing: var(--theme-typescale-display-large-letter-spacing);
     color: var(--theme-color-primary-fixed);
+
+	  &.breakpoint-smaller-than-large {
+		  div {
+			  display: none;
+		  }
+	  }
   }
 
 	.top-bar-interaction-wrapper {
