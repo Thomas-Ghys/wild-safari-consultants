@@ -10,10 +10,6 @@
       "en": {
         "baseHref": "/en/",
         "translation": "apps/wild-safari-consultants/public/locales/messages.en.xlf"
-      },
-      "nl": {
-        "baseHref": "/nl/",
-        "translation": "apps/wild-safari-consultants/public/locales/messages.nl.xlf"
       }
     }
   },
@@ -54,10 +50,8 @@
         "en": {
           "localize": ["en"]
         },
-        "nl": {
-          "localize": ["nl"]
-        },
         "production": {
+          "localize": ["en"],
           "budgets": [
             {
               "type": "initial",
@@ -91,9 +85,6 @@
         },
         "en": {
           "buildTarget": "wild-safari-consultants:build:en"
-        },
-        "nl": {
-          "buildTarget": "wild-safari-consultants:build:nl"
         }
       },
       "defaultConfiguration": "development"
