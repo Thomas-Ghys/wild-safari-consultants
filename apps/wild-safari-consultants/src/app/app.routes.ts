@@ -1,4 +1,5 @@
 import {Route} from '@angular/router';
+import {Page404Component} from '@thomas-ghys.eu/common-ui';
 
 export const appRoutes: Route[] = [
 	{
@@ -17,5 +18,9 @@ export const appRoutes: Route[] = [
 		path: '',
 		pathMatch: 'full',
 		redirectTo: 'home'
+	},
+	{
+		path: '**',
+		component: Page404Component
 	}
 ];

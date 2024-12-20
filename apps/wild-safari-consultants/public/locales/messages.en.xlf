@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
   <file id="ngi18n" original="ng.template">
+  <unit id="about.title">
+        <notes>
+          <note category="location">libs/about/about-feature/src/lib/about/about.component.html:1</note>
+          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:15,17</note>
+        </notes>
+        <segment>
+          <source>About</source>
+          <target>About</target>
+        </segment>
+      </unit>
+      <unit id="home.title">
+        <notes>
+          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:8,9</note>
+          <note category="location">libs/home/home-feature/src/lib/home/home.component.html:1</note>
+        </notes>
+        <segment>
+          <source>Home</source>
+          <target>Home</target>
+        </segment>
+      </unit>
+      <unit id="page404.title">
+        <notes>
+          <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:2,3</note>
+        </notes>
+        <segment>
+          <source>Page not found</source>
+          <target>We couldn't find the page you are looking for</target>
+        </segment>
+      </unit>
+    <unit id="page404.take-me-back">
+      <notes>
+        <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:11,13</note>
+      </notes>
+      <segment>
+        <source> Take me back! </source>
+      </segment>
+    </unit>
   </file>
 </xliff>
