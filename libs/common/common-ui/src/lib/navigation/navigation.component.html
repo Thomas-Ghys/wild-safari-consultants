@@ -7,6 +7,13 @@
 		navigationItemName="Home"
 	/>
 	<lib-navigation-item
+		(navigationItemClicked)="navigateToRoute('safaris')"
+		[navigationItemActive]="currentRoute() === 'safaris'"
+		i18n-navigationItemName="@@explore.title"
+		navigationItemIcon="travel_explore"
+		navigationItemName="Explore"
+	/>
+	<lib-navigation-item
 		(navigationItemClicked)="navigateToRoute('about-us')"
 		[navigationItemActive]="currentRoute() === 'about-us'"
 		i18n-navigationItemName="@@about.title"

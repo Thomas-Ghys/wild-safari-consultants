@@ -15,6 +15,12 @@ export const appRoutes: Route[] = [
 		)
 	},
 	{
+		path: 'safaris',
+		loadChildren: () => import('@thomas-ghys.eu/explore-feature').then(
+			(route) => route.exploreRoutes
+		)
+	},
+	{
 		path: '',
 		pathMatch: 'full',
 		redirectTo: 'home'
