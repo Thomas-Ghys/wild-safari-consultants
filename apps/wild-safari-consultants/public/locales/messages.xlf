@@ -35,5 +35,29 @@
         <source> Take me back! </source>
       </segment>
     </unit>
+    <unit id="home.welcome-title">
+      <notes>
+        <note category="location">libs/home/home-feature/src/lib/home/home.component.html:7,9</note>
+      </notes>
+      <segment>
+        <source> Welcome: </source>
+      </segment>
+    </unit>
+    <unit id="home.welcome-message">
+      <notes>
+        <note category="location">libs/home/home-feature/src/lib/home/home.component.html:10,13</note>
+      </notes>
+      <segment>
+        <source> Welcome message </source>
+      </segment>
+    </unit>
+    <unit id="home.welcome.slogan">
+      <notes>
+        <note category="location">libs/home/home-ui/src/lib/welcome/welcome.component.html:7,10</note>
+      </notes>
+      <segment>
+        <source> Your gateway to unforgettable safari experiences! </source>
+      </segment>
+    </unit>
   </file>
 </xliff>

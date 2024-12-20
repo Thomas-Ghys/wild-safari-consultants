@@ -38,5 +38,32 @@
         <source> Take me back! </source>
       </segment>
     </unit>
+    <unit id="home.welcome-title">
+          <notes>
+            <note category="location">libs/home/home-feature/src/lib/home/home.component.html:7,9</note>
+          </notes>
+          <segment>
+            <source> Welcome: </source>
+            <target>Welcome: </target>
+          </segment>
+        </unit>
+        <unit id="home.welcome-message">
+          <notes>
+            <note category="location">libs/home/home-feature/src/lib/home/home.component.html:10,13</note>
+          </notes>
+          <segment>
+            <source> Welcome message </source>
+            <target>Welcome to Wild Safari Consultants, where your adventure begins right from the moment you land. We specialize in curating unforgettable safari experiences tailored to your desires, and we proudly offer convenient airport pickup and drop-off services from OR Tambo International Airport and Hoedspruit Airport. Our dedicated team ensures a smooth transition from your arrival to the heart of the wilderness, allowing you to focus on what truly matters - the awe-inspiring sights and sounds of the African safari. Join us for an extraordinary journey into the wild, where nature and luxury meet seamlessly!</target>
+          </segment>
+        </unit>
+        <unit id="home.welcome.slogan">
+          <notes>
+            <note category="location">libs/home/home-ui/src/lib/welcome/welcome.component.html:7,10</note>
+          </notes>
+          <segment>
+            <source> Your gateway to unforgettable safari experiences! </source>
+            <target>Your gateway to unforgettable safari experiences!</target>
+          </segment>
+        </unit>
   </file>
 </xliff>
