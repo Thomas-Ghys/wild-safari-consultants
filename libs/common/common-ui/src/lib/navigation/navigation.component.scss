@@ -7,4 +7,9 @@
     gap: 2rem;
     height: 5rem;
     justify-content: center;
+
+	&.breakpoint-smaller-than-medium {
+		justify-content: flex-start;
+		overflow-x: auto;
+	}
 }

@@ -1,12 +1,15 @@
 import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {NavigationItemComponent} from '../navigation-item/navigation-item.component';
-import {RoutingService} from '@thomas-ghys.eu/common-utils';
+import {
+	BreakpointDirective,
+	RoutingService
+} from '@thomas-ghys.eu/common-utils';
 
 @Component({
 	selector: 'lib-navigation',
 	standalone: true,
-	imports: [CommonModule, NavigationItemComponent],
+	imports: [CommonModule, NavigationItemComponent, BreakpointDirective],
 	templateUrl: './navigation.component.html',
 	styleUrl: './navigation.component.scss'
 })
