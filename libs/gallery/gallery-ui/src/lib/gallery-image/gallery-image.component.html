@@ -1,0 +1,20 @@
+<div class="gallery-image-container">
+	<section class="gallery-image-tracker-wrapper">
+		<span>{{activeImageIndex() + 1}}</span>
+		<span i18n="@@gallery.gallery-image.">of</span>
+		<span>{{totalImages()}}</span>
+	</section>
+	<section class="gallery-image-image-wrapper">
+		<div class="gallery-image-back-button-wrapper"
+			 [ngClass]="{'disable-previous': activeImageIndex() === 0}"
+			 (click)="backButtonClicked.emit()">
+			<span class="material-symbols-outlined">chevron_left</span>
+		</div>
+		<img [src]="activeImage()" [alt]="activeImageAlt()"/>
+		<div class="gallery-image-next-button-wrapper"
+			 [ngClass]="{'disable-next': activeImageIndex() + 1 === totalImages()}"
+			 (click)="nextButtonClicked.emit()">
+			<span class="material-symbols-outlined">chevron_right</span>
+		</div>
+	</section>
+</div>

@@ -1,21 +1,21 @@
-import { ComponentFixture, TestBed } from "@angular/core/testing";
-import { GalleryCarrouselComponent } from "./gallery-carrousel.component";
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+import {GalleryComponent} from './gallery.component';
 
-describe("GalleryCarrouselComponent", () => {
-	let component: GalleryCarrouselComponent;
-	let fixture: ComponentFixture<GalleryCarrouselComponent>;
+describe('GalleryCarrouselComponent', () => {
+	let component: GalleryComponent;
+	let fixture: ComponentFixture<GalleryComponent>;
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			imports: [GalleryCarrouselComponent],
+			imports: [GalleryComponent]
 		}).compileComponents();
 
-		fixture = TestBed.createComponent(GalleryCarrouselComponent);
+		fixture = TestBed.createComponent(GalleryComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
 	});
 
-	it("should create", () => {
+	it('should create', () => {
 		expect(component).toBeTruthy();
 	});
 });

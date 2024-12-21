@@ -1,0 +1,21 @@
+<div class="gallery-thumbnails-container">
+	<section class="gallery-thumbnails-back-button-wrapper"
+		 [ngClass]="{'disable-previous': startVisibleItemsIndex() === 0}"
+		 (click)="backButtonClicked()">
+		<span class="material-symbols-outlined">chevron_left</span>
+	</section>
+	<section class="gallery-thumbnails-images-wrapper">
+		@for (item of visibleGalleryItems(); track item) {
+			<div class="gallery-thumbnails-thumbnail-wrapper"
+				 (click)="navigateToGalleryItem.emit(getIndex(item))"
+				 [ngClass]="{'active-item': item.itemData === this.galleryItems()[this.galleryActiveIndex()].itemData}">
+				<img [src]="item.itemData" [alt]="item.itemAlt"/>
+			</div>
+		}
+	</section>
+	<section class="gallery-thumbnails-next-button-wrapper"
+		 [ngClass]="{'disable-next': startVisibleItemsIndex() + this.numbVisibleItems() === galleryItems().length}"
+		 (click)="nextButtonClicked()">
+		<span class="material-symbols-outlined">chevron_right</span>
+	</section>
+</div>

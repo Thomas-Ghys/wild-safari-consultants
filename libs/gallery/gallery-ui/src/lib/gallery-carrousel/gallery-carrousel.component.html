@@ -1,1 +1,19 @@
-<p>gallery-carrousel works!</p>
+<div class="gallery-carrousel-container">
+	<section class="gallery-carrousel-main-image-wrapper">
+		<lib-gallery-image
+			[activeImageAlt]="activeImage().itemAlt"
+			[activeImageIndex]="galleryActiveIndex()"
+			[activeImage]="activeImage().itemData"
+			[totalImages]="galleryItems().length"
+			(backButtonClicked)="previousItem()"
+			(nextButtonClicked)="nextItem()"
+		/>
+	</section>
+	<section>
+		<lib-gallery-thumbnails
+			[galleryItems]="galleryItems()"
+			[galleryActiveIndex]="galleryActiveIndex()"
+			(navigateToGalleryItem)="navigateToItem($event)"
+		/>
+	</section>
+</div>

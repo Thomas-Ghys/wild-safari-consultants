@@ -1,12 +1,7 @@
 <lib-feature-container featureName="Gallery" i18n-featureName="@@gallery.title">
 	<div class="gallery-feature-container">
-		@for (image of galleryImages; track image) {
-			<img
-				[ngSrc]="image"
-				width="10rem"
-				height="7rem"
-				[alt]="image"
-			/>
-		}
+		<lib-gallery-carrousel
+			[galleryItems]="galleryImages"
+		/>
 	</div>
 </lib-feature-container>

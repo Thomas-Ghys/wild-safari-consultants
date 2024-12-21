@@ -4,7 +4,7 @@
   <unit id="about.title">
         <notes>
           <note category="location">libs/about/about-feature/src/lib/about/about.component.html:1</note>
-          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:29,31</note>
+          <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:36,38</note>
         </notes>
         <segment>
           <source>About</source>
@@ -34,6 +34,7 @@
 	  <unit id="gallery.title">
 		  <notes>
 			  <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
+			  <note category="location">libs/gallery/gallery-feature/src/lib/gallery/gallery.component.html:1</note>
 		  </notes>
 		  <segment>
 			  <source>Gallery</source>
@@ -129,6 +130,15 @@
 		  <segment>
 			  <source>QR-code</source>
 			  <target>QR-code: </target>
+		  </segment>
+	  </unit>
+	  <unit id="gallery.gallery-image.">
+		  <notes>
+			  <note category="location">libs/gallery/gallery-ui/src/lib/gallery-image/gallery-image.component.html:4,5</note>
+		  </notes>
+		  <segment>
+			  <source>of</source>
+			  <target> of </target>
 		  </segment>
 	  </unit>
     <unit id="home.welcome-title">

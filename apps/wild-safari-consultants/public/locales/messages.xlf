@@ -31,6 +31,7 @@
     <unit id="gallery.title">
       <notes>
         <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
+        <note category="location">libs/gallery/gallery-feature/src/lib/gallery/gallery.component.html:1</note>
       </notes>
       <segment>
         <source>Gallery</source>
@@ -116,6 +117,14 @@
       </notes>
       <segment>
         <source>QR-code</source>
+      </segment>
+    </unit>
+    <unit id="gallery.gallery-image.">
+      <notes>
+        <note category="location">libs/gallery/gallery-ui/src/lib/gallery-image/gallery-image.component.html:4,5</note>
+      </notes>
+      <segment>
+        <source>of</source>
       </segment>
     </unit>
     <unit id="home.welcome-title">
