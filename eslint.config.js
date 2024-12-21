@@ -64,7 +64,8 @@ module.exports = [
 								'domain:home',
 								'domain:about',
 								'domain:explore',
-								'domain:contact'
+								'domain:contact',
+								'domain:gallery'
 							]
 						},
 						{
@@ -103,6 +104,13 @@ module.exports = [
 							sourceTag: 'domain:contact',
 							onlyDependOnLibsWithTags: [
 								'domain:contact',
+								'domain:common'
+							]
+						},
+						{
+							sourceTag: 'domain:gallery',
+							onlyDependOnLibsWithTags: [
+								'domain:gallery',
 								'domain:common'
 							]
 						}
@@ -204,11 +212,10 @@ module.exports = [
 			'@html-eslint/element-newline': 'error',
 			'@html-eslint/id-naming-convention': ['error', 'kebab-case'],
 			'@html-eslint/indent': ['error', 'tab'],
-			'@html-eslint/lowercase': 'error',
 			'@html-eslint/no-extra-spacing-attrs': 'error',
 			'@html-eslint/no-multiple-empty-lines': 'error',
 			'@html-eslint/no-trailing-spaces': 'error',
-			'@html-eslint/quotes': ['error', 'single'],
+			'@html-eslint/quotes': ['error', 'double'],
 			'@html-eslint/sort-attrs': 'error'
 		}
 	}

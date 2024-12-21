@@ -14,6 +14,13 @@
 		navigationItemName="Explore"
 	/>
 	<lib-navigation-item
+		(navigationItemClicked)="navigateToRoute('gallery')"
+		[navigationItemActive]="currentRoute() === 'gallery'"
+		i18n-navigationItemName="@@gallery.title"
+		navigationItemIcon="image"
+		navigationItemName="Gallery"
+	/>
+	<lib-navigation-item
 		(navigationItemClicked)="navigateToRoute('contact')"
 		[navigationItemActive]="currentRoute() === 'contact'"
 		i18n-navigationItemName="@@contact.title"

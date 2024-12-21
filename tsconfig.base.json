@@ -41,6 +41,12 @@
 			"@thomas-ghys.eu/explore-ui": [
 				"libs/explore/explore-ui/src/index.ts"
 			],
+			"@thomas-ghys.eu/gallery-feature": [
+				"libs/gallery/gallery-feature/src/index.ts"
+			],
+			"@thomas-ghys.eu/gallery-ui": [
+				"libs/gallery/gallery-ui/src/index.ts"
+			],
 			"@thomas-ghys.eu/home-feature": [
 				"libs/home/home-feature/src/index.ts"
 			],

@@ -31,9 +31,18 @@
 			  <target>Our safaris</target>
 		  </segment>
 	  </unit>
-	  <unit id="contact.title">
+	  <unit id="gallery.title">
 		  <notes>
 			  <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
+		  </notes>
+		  <segment>
+			  <source>Gallery</source>
+			  <target>Gallery</target>
+		  </segment>
+	  </unit>
+	  <unit id="contact.title">
+		  <notes>
+			  <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:29,31</note>
 			  <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:3</note>
 		  </notes>
 		  <segment>
