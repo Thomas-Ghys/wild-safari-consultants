@@ -2,7 +2,9 @@
 	"name": "@thomas-ghys.eu/source",
 	"version": "0.0.0",
 	"license": "MIT",
-	"scripts": {},
+	"scripts": {
+		"safari:en": "nx serve wild-safari-consultants --configuration=en"
+	},
 	"private": true,
 	"dependencies": {
 		"@angular/animations": "~19.0.0",
