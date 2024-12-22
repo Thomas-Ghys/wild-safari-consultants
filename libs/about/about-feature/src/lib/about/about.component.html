@@ -1,8 +1,31 @@
 <lib-feature-container featureName="About" i18n-featureName="@@about.title">
-	<div>
-		Founder & Director:
-	</div>
-	<div>
-		Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I'm a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. Raised just outside Hoedspruit, a stone's throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age. With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild!
+	<div class="about-feature-container">
+		<section class="about-feature-founder-container">
+			<div class="about-feature-founder-title">
+				Founder & Director:
+			</div>
+			<div class="about-feature-founder-content" Breakpoint>
+				<img [src]="'personal/founder.jpeg'"/>
+				<section class="about-feature-founder-content-text">
+					<div>
+						Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I'm a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world.
+					</div>
+					<div>
+						With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild!
+					</div>
+				</section>
+			</div>
+		</section>
+		<section class="about-feature-history-container">
+			<div class="about-feature-history-title">
+				My history:
+			</div>
+			<div class="about-feature-history-content" Breakpoint>
+				<img [src]="'personal/young_founder.jpeg'"/>
+				<div class="about-feature-history-content-text">
+					Raised just outside Hoedspruit, a stone's throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age.
+				</div>
+			</div>
+		</section>
 	</div>
 </lib-feature-container>
