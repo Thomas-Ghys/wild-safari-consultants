@@ -7,7 +7,6 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 2.5rem 1fr;
-    height: 10rem;
     overflow: hidden;
     padding: 0.5rem 1rem;
     width: 100%;
@@ -24,6 +23,8 @@
     }
 
     .qr-contact-card-details {
+		overflow: hidden;
+
         .qr-contact-card-title {
             color: var(--theme-color-on-neutral-surface);
             font-family: var(--theme-typescale-title-large-font-family-name);
