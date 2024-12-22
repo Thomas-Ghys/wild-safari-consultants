@@ -10,6 +10,46 @@
         <source>About</source>
       </segment>
     </unit>
+    <unit id="about.founder">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:5,7</note>
+      </notes>
+      <segment>
+        <source> Founder &amp; Director: </source>
+      </segment>
+    </unit>
+    <unit id="about.founder.text.1">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:11,13</note>
+      </notes>
+      <segment>
+        <source> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </source>
+      </segment>
+    </unit>
+    <unit id="about.founder.text.2">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:14,16</note>
+      </notes>
+      <segment>
+        <source> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </source>
+      </segment>
+    </unit>
+    <unit id="about.young_founder">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:21,23</note>
+      </notes>
+      <segment>
+        <source> My history: </source>
+      </segment>
+    </unit>
+    <unit id="about.young_founder.text">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:26,29</note>
+      </notes>
+      <segment>
+        <source> Raised just outside Hoedspruit, a stone&apos;s throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age. </source>
+      </segment>
+    </unit>
     <unit id="home.title">
       <notes>
         <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:8,9</note>
@@ -21,7 +61,7 @@
     </unit>
     <unit id="explore.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:15,17</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:14,16</note>
         <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:1</note>
       </notes>
       <segment>
@@ -30,7 +70,7 @@
     </unit>
     <unit id="gallery.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:21,23</note>
         <note category="location">libs/gallery/gallery-feature/src/lib/gallery/gallery.component.html:1</note>
       </notes>
       <segment>
@@ -39,8 +79,8 @@
     </unit>
     <unit id="contact.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:29,31</note>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:3</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:28,30</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:2,3</note>
       </notes>
       <segment>
         <source>Contact</source>
@@ -56,7 +96,7 @@
     </unit>
     <unit id="page404.take-me-back">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:11,13</note>
+        <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:11,12</note>
       </notes>
       <segment>
         <source> Take me back! </source>
@@ -64,7 +104,7 @@
     </unit>
     <unit id="contact.mobile">
       <notes>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,15</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,14</note>
       </notes>
       <segment>
         <source>Mobile</source>
@@ -72,7 +112,7 @@
     </unit>
     <unit id="contact.whatsapp">
       <notes>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,16</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,15</note>
       </notes>
       <segment>
         <source>Whatsapp</source>
