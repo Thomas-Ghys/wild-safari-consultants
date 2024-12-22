@@ -26,6 +26,16 @@ export class GalleryCarrouselComponent {
 		return this.galleryItems()[this.galleryActiveIndex()];
 	});
 
+	constructor() {
+		setInterval(() => {
+			if (this.galleryActiveIndex() < this.galleryItems().length - 1) {
+				this.galleryActiveIndex.set(this.galleryActiveIndex() + 1);
+				return;
+			}
+			this.galleryActiveIndex.set(0);
+		}, 10000);
+	}
+
 	public nextItem() {
 		if (this.galleryActiveIndex() < this.galleryItems().length - 1) {
 			this.galleryActiveIndex.set(this.galleryActiveIndex() + 1);
