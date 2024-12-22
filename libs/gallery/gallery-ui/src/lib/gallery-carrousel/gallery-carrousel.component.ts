@@ -33,7 +33,7 @@ export class GalleryCarrouselComponent {
 				return;
 			}
 			this.galleryActiveIndex.set(0);
-		}, 10000);
+		}, 5000);
 	}
 
 	public nextItem() {
