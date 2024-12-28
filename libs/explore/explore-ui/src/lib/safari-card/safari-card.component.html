@@ -1,0 +1,9 @@
+<div class="safari-card-container">
+	<section class="safari-card-header-wrapper">
+		<div class="safari-card-header-title">{{title()}}</div>
+		<div class="safari-card-header-subtitle">{{subTitle()}}</div>
+	</section>
+	<section class="safari-card-content-wrapper">
+		<ng-container [ngTemplateOutlet]="safariPackageDescription().template"/>
+	</section>
+</div>

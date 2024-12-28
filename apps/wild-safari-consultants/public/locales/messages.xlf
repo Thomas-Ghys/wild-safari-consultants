@@ -159,6 +159,302 @@
         <source>QR-code</source>
       </segment>
     </unit>
+    <unit id="safari-card.standard-package.day-1">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:13,15</note>
+      </notes>
+      <segment>
+        <source> Day 1: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-2">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:16,18</note>
+      </notes>
+      <segment>
+        <source> Day 2: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-3">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:19,21</note>
+      </notes>
+      <segment>
+        <source> Day 3: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-4">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:22,24</note>
+      </notes>
+      <segment>
+        <source> Day 4: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-5">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:25,27</note>
+      </notes>
+      <segment>
+        <source> Day 5: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-6">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:28,30</note>
+      </notes>
+      <segment>
+        <source> Day 6: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.standard-package.day-7">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:31,35</note>
+      </notes>
+      <segment>
+        <source> Day 7: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-1">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:45,47</note>
+      </notes>
+      <segment>
+        <source> Day 1: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-2">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:48,50</note>
+      </notes>
+      <segment>
+        <source> Day 2: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-3">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:51,53</note>
+      </notes>
+      <segment>
+        <source> Day 3: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-4">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:54,56</note>
+      </notes>
+      <segment>
+        <source> Day 4: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-5">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:57,59</note>
+      </notes>
+      <segment>
+        <source> Day 5: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-6">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:60,62</note>
+      </notes>
+      <segment>
+        <source> Day 6: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-7">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:63,65</note>
+      </notes>
+      <segment>
+        <source> Day 7: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-8">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:66,68</note>
+      </notes>
+      <segment>
+        <source> Day 8: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-9">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:69,71</note>
+      </notes>
+      <segment>
+        <source> Day 9: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-10">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:72,74</note>
+      </notes>
+      <segment>
+        <source> Day 10: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.midrange-package.day-11">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:75,79</note>
+      </notes>
+      <segment>
+        <source> Day 11: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-1">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:88,90</note>
+      </notes>
+      <segment>
+        <source> Day 1: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-2">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:91,93</note>
+      </notes>
+      <segment>
+        <source> Day 2: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-3">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:94,96</note>
+      </notes>
+      <segment>
+        <source> Day 3: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-4">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:97,99</note>
+      </notes>
+      <segment>
+        <source> Day 4: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-5">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:100,102</note>
+      </notes>
+      <segment>
+        <source> Day 5: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-6">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:103,105</note>
+      </notes>
+      <segment>
+        <source> Day 6: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-7">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:106,108</note>
+      </notes>
+      <segment>
+        <source> Day 7: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-8">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:109,111</note>
+      </notes>
+      <segment>
+        <source> Day 8: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-9">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:112,114</note>
+      </notes>
+      <segment>
+        <source> Day 9: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-10">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:115,117</note>
+      </notes>
+      <segment>
+        <source> Day 10: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-11">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:118,120</note>
+      </notes>
+      <segment>
+        <source> Day 11: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-12">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:121,123</note>
+      </notes>
+      <segment>
+        <source> Day 12: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-13">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:124,126</note>
+      </notes>
+      <segment>
+        <source> Day 13: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.premium-package.day-14">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:127,131</note>
+      </notes>
+      <segment>
+        <source> Day 14: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.combo-package.day-1">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:141,143</note>
+      </notes>
+      <segment>
+        <source> Day 1: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.combo-package.day-2">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:144,146</note>
+      </notes>
+      <segment>
+        <source> Day 2: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.combo-package.day-3">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:147,149</note>
+      </notes>
+      <segment>
+        <source> Day 3: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.combo-package.day-4">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:150,152</note>
+      </notes>
+      <segment>
+        <source> Day 4: </source>
+      </segment>
+    </unit>
+    <unit id="safari-card.combo-package.day-5">
+      <notes>
+        <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:153,156</note>
+      </notes>
+      <segment>
+        <source> Day 5: </source>
+      </segment>
+    </unit>
     <unit id="gallery.gallery-image.">
       <notes>
         <note category="location">libs/gallery/gallery-ui/src/lib/gallery-image/gallery-image.component.html:4,5</note>
@@ -189,7 +485,7 @@
       </notes>
       <segment>
         <source> Weclome safari message </source>
-	  </segment>
+      </segment>
     </unit>
     <unit id="home.welcome.slogan">
       <notes>
