@@ -183,7 +183,11 @@
 		  </notes>
 		  <segment>
 			  <source> Our safaris disclaimer </source>
-			  <target>d</target>
+			  <target>While our website and online presence at Wild Safari Consultants provides a comprehensive overview of our travel packages and services,
+				  it is essential to note that we often offer exclusive, off-the-beaten-path experiences and unique itineraries that are not publicly advertised or
+				  listed online. We invite you to contact us directly to inquire about customized travel options that cater to your specific interests, preferences,
+				  and requirements. Our expert consultants are always available to craft personalized travel experiences that exceed your expectations, so don't hesitate
+				  to reach out to us to explore the full range of possibilities.</target>
 		  </segment>
 	  </unit>
 	  <unit id="safari-card.standard-package.day-1">
