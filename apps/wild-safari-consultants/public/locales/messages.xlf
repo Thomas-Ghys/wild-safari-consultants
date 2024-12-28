@@ -44,7 +44,7 @@
     </unit>
     <unit id="about.young_founder.text">
       <notes>
-        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:26,29</note>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:25,28</note>
       </notes>
       <segment>
         <source> Raised just outside Hoedspruit, a stone&apos;s throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age. </source>
@@ -61,7 +61,7 @@
     </unit>
     <unit id="explore.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:14,16</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:15,17</note>
         <note category="location">libs/explore/explore-feature/src/lib/explore/explore.component.html:1</note>
       </notes>
       <segment>
@@ -70,7 +70,7 @@
     </unit>
     <unit id="gallery.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:21,23</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:22,24</note>
         <note category="location">libs/gallery/gallery-feature/src/lib/gallery/gallery.component.html:1</note>
       </notes>
       <segment>
@@ -79,8 +79,8 @@
     </unit>
     <unit id="contact.title">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:28,30</note>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:2,3</note>
+        <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:29,31</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:3</note>
       </notes>
       <segment>
         <source>Contact</source>
@@ -96,7 +96,7 @@
     </unit>
     <unit id="page404.take-me-back">
       <notes>
-        <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:11,12</note>
+        <note category="location">libs/common/common-ui/src/lib/page-404/page-404.component.html:11,13</note>
       </notes>
       <segment>
         <source> Take me back! </source>
@@ -104,7 +104,7 @@
     </unit>
     <unit id="contact.mobile">
       <notes>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,14</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,15</note>
       </notes>
       <segment>
         <source>Mobile</source>
@@ -112,7 +112,7 @@
     </unit>
     <unit id="contact.whatsapp">
       <notes>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,15</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:13,16</note>
       </notes>
       <segment>
         <source>Whatsapp</source>
@@ -177,11 +177,19 @@
     </unit>
     <unit id="home.welcome-message">
       <notes>
-        <note category="location">libs/home/home-feature/src/lib/home/home.component.html:10,13</note>
+        <note category="location">libs/home/home-feature/src/lib/home/home.component.html:10,12</note>
       </notes>
       <segment>
         <source> Welcome message </source>
       </segment>
+    </unit>
+    <unit id="home.welcome-safari-message">
+      <notes>
+        <note category="location">libs/home/home-feature/src/lib/home/home.component.html:13,16</note>
+      </notes>
+      <segment>
+        <source> Weclome safari message </source>
+	  </segment>
     </unit>
     <unit id="home.welcome.slogan">
       <notes>

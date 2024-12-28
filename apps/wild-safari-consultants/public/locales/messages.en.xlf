@@ -204,6 +204,15 @@
             <target>Welcome to Wild Safari Consultants, where your adventure begins right from the moment you land. We specialize in curating unforgettable safari experiences tailored to your desires, and we proudly offer convenient airport pickup and drop-off services from OR Tambo International Airport and Hoedspruit Airport. Our dedicated team ensures a smooth transition from your arrival to the heart of the wilderness, allowing you to focus on what truly matters - the awe-inspiring sights and sounds of the African safari. Join us for an extraordinary journey into the wild, where nature and luxury meet seamlessly!</target>
           </segment>
         </unit>
+	  <unit id="home.welcome-safari-message">
+		  <notes>
+			  <note category="location">libs/home/home-feature/src/lib/home/home.component.html:13,16</note>
+		  </notes>
+		  <segment>
+			  <source> Weclome safari message </source>
+			  <target>Traveling with Wild Safari Consultants offers a unique blend of exhilarating experiences tailored to adventure seekers and nature lovers alike. Customers can immerse themselves in the wild by camping/glamping under the stars in the renowned Kruger National Park and/private game reserves, embark on breathtaking hot air balloon rides over picturesque landscapes, and partake in thrilling game drives that unveil a vibrant spectrum of wildlife. For a more interactive encounter, guests can enjoy extraordinary experiences like walking alongside a leopard or engaging in a heartwarming elephant interaction. Horse riding safaris also provide a serene means to explore the wilderness, allowing travelers to connect deeply with nature while witnessing stunning vistas and diverse flora and fauna. Every moment with Wild Safari Consultants is crafted to create unforgettable memories in the heart of Africa.</target>
+		  </segment>
+	  </unit>
         <unit id="home.welcome.slogan">
           <notes>
             <note category="location">libs/home/home-ui/src/lib/welcome/welcome.component.html:7,10</note>
