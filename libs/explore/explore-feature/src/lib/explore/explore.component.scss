@@ -6,6 +6,16 @@
 	height: 100%;
 	overflow-y: auto;
 
+	.explore-feature-heading-wrapper {
+		color: var(--theme-color-on-neutral-surface);
+		font-family: var(--theme-typescale-body-large-font-family-name);
+		font-style: var(--theme-typescale-body-large-font-family-style);
+		font-weight: var(--theme-typescale-body-large-font-weight);
+		font-size: var(--theme-typescale-body-large-font-size);
+		letter-spacing: var(--theme-typescale-body-large-letter-spacing);
+		line-height: var(--theme-typescale-body-large-line-height);
+	}
+
 	.explore-feature-safari-packages-wrapper {
 		display: flex;
 		flex-direction: row;
