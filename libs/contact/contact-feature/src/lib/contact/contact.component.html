@@ -22,5 +22,9 @@
 			qrPrefix="Instagram-handle"
 			qrTitle="Instagram"
 		/>
+		<lib-email-contact-card
+			[email]="store.email()"
+			(concactCardClicked)="openEmailClient()"
+		/>
 	</div>
 </lib-feature-container>

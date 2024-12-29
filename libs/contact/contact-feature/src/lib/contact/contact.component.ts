@@ -2,7 +2,10 @@ import {Component, inject} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FeatureContainerComponent} from '@thomas-ghys.eu/common-ui';
 import {BreakpointDirective} from '@thomas-ghys.eu/common-utils';
-import {QrContactCardComponent} from '@thomas-ghys.eu/contact-ui';
+import {
+	EmailContactCardComponent,
+	QrContactCardComponent
+} from '@thomas-ghys.eu/contact-ui';
 import {ContactStore} from '@thomas-ghys.eu/common-data';
 
 @Component({
@@ -12,7 +15,8 @@ import {ContactStore} from '@thomas-ghys.eu/common-data';
 		CommonModule,
 		FeatureContainerComponent,
 		BreakpointDirective,
-		QrContactCardComponent
+		QrContactCardComponent,
+		EmailContactCardComponent
 	],
 	providers: [ContactStore],
 	templateUrl: './contact.component.html',
@@ -20,4 +24,11 @@ import {ContactStore} from '@thomas-ghys.eu/common-data';
 })
 export class ContactComponent {
 	readonly store = inject(ContactStore);
+
+	public openEmailClient() {
+		window.location.href =
+			'mailto:' +
+			this.store.email() +
+			'?subject=Contact request for a custom wild safari experience';
+	}
 }
