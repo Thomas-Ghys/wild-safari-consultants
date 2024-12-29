@@ -52,8 +52,16 @@
               <note category="location">libs/about/about-feature/src/lib/about/about.component.html:26,29</note>
             </notes>
             <segment>
-              <source> Raised just outside Hoedspruit, a stone&apos;s throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age. </source>
-            <target> Raised just outside Hoedspruit, a stone&apos;s throw from the majestic Kruger National Park, I grew up surrounded by breathtaking landscapes and diverse wildlife, igniting my love for nature from an early age. </target>
+				<source> About our young founder </source>
+				<target>My early years were shaped by my attendance at a certain bush school and wildlife orphanage,
+					here students from local schools learned the importance of conservation and environmental stewardship
+					alongside international volunteers. This experience not only deepened my commitment to protecting
+					nature but also instilled a strong sense of community responsibility, exemplified by my involvement
+					in the Road Safety PET project, where me and my peers created a PowerPoint presentation advocating for
+					improvements to the R36 road to reduce wildlife roadkills. My passion for wildlife and cultural exchange
+					reached new heights during my adventure in Europe, which reaffirmed my love for South Africa's breathtaking
+					landscapes and diverse wildlife—qualities that Europe simply does not possess—and further fueled my dedication
+					to promoting the beauty and conservation of her homeland.</target>
             </segment>
           </unit>
       <unit id="home.title">
