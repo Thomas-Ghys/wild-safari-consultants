@@ -25,8 +25,8 @@
               <note category="location">libs/about/about-feature/src/lib/about/about.component.html:11,13</note>
             </notes>
             <segment>
-              <source> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </source>
-            <target> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </target>
+				<source> Introduction </source>
+				<target> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </target>
             </segment>
           </unit>
           <unit id="about.founder.text.2">
@@ -34,25 +34,16 @@
               <note category="location">libs/about/about-feature/src/lib/about/about.component.html:14,16</note>
             </notes>
             <segment>
-              <source> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </source>
-            <target> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </target>
+				<source> Heritage </source>
+				<target> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </target>
             </segment>
           </unit>
-          <unit id="about.young_founder">
+	  <unit id="about.founder.text.3">
             <notes>
-              <note category="location">libs/about/about-feature/src/lib/about/about.component.html:21,23</note>
-            </notes>
+				<note category="location">libs/about/about-feature/src/lib/about/about.component.html:17,19</note>
+			</notes>
             <segment>
-              <source> My history: </source>
-            <target> My history: </target>
-            </segment>
-          </unit>
-          <unit id="about.young_founder.text">
-            <notes>
-              <note category="location">libs/about/about-feature/src/lib/about/about.component.html:26,29</note>
-            </notes>
-            <segment>
-				<source> About our young founder </source>
+				<source> History </source>
 				<target>My early years were shaped by my attendance at a certain bush school and wildlife orphanage,
 					here students from local schools learned the importance of conservation and environmental stewardship
 					alongside international volunteers. This experience not only deepened my commitment to protecting

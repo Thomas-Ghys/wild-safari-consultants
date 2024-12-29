@@ -23,7 +23,7 @@
         <note category="location">libs/about/about-feature/src/lib/about/about.component.html:11,13</note>
       </notes>
       <segment>
-        <source> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </source>
+        <source> Introduction </source>
       </segment>
     </unit>
     <unit id="about.founder.text.2">
@@ -31,23 +31,15 @@
         <note category="location">libs/about/about-feature/src/lib/about/about.component.html:14,16</note>
       </notes>
       <segment>
-        <source> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </source>
+        <source> Heritage </source>
       </segment>
     </unit>
-    <unit id="about.young_founder">
+    <unit id="about.founder.text.3">
       <notes>
-        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:21,23</note>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:17,19</note>
       </notes>
       <segment>
-        <source> My history: </source>
-      </segment>
-    </unit>
-    <unit id="about.young_founder.text">
-      <notes>
-        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:25,28</note>
-      </notes>
-      <segment>
-        <source> About our young founder </source>
+        <source> History </source>
       </segment>
     </unit>
     <unit id="home.title">
