@@ -39,6 +39,14 @@
         <note category="location">libs/about/about-feature/src/lib/about/about.component.html:17,19</note>
       </notes>
       <segment>
+        <source> experience </source>
+      </segment>
+    </unit>
+    <unit id="about.founder.text.4">
+      <notes>
+        <note category="location">libs/about/about-feature/src/lib/about/about.component.html:20,22</note>
+      </notes>
+      <segment>
         <source> History </source>
       </segment>
     </unit>
@@ -120,7 +128,7 @@
     </unit>
     <unit id="contact.instagram">
       <notes>
-        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:23,26</note>
+        <note category="location">libs/contact/contact-feature/src/lib/contact/contact.component.html:23,25</note>
       </notes>
       <segment>
         <source>Instagram</source>

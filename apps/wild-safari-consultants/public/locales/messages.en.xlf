@@ -26,7 +26,12 @@
             </notes>
             <segment>
 				<source> Introduction </source>
-				<target> Welcome to Wild Safari Consultants! My name is Candice Rakganya, and I&apos;m a passionate 23-year-old founder dedicated to sharing the wonders of the African wilderness with the world. </target>
+				<target>Candice Rakganya, the 23-year-old founder of Wild Safari Consultants, has harbored a profound
+					passion for wildlife since her early years. Growing up just outside the Kruger National Park, she
+					was immersed in the rich biodiversity of the region, fostering a deep connection with nature. This
+					upbringing instilled in her a desire to share the wonders of the wild with others, leading to the
+					establishment of her safari consultancy.
+				</target>
             </segment>
           </unit>
           <unit id="about.founder.text.2">
@@ -35,26 +40,41 @@
             </notes>
             <segment>
 				<source> Heritage </source>
-				<target> With a deep commitment to conservation and responsible tourism, I aim to create unforgettable safari experiences that connect you with the beauty of South Africa’s natural heritage while promoting sustainable practices to protect it for future generations. Join me on this incredible journey into the wild! </target>
+				<target> Candice's intimate knowledge of South Africa's landscapes and wildlife enables her to curate
+					personalized safari experiences that resonate with her clients. Her commitment to providing
+					authentic and enriching encounters is evident in the tailored itineraries she offers, ensuring
+					that each journey reflects the unique interests and desires of her clientele.
+				</target>
             </segment>
           </unit>
 	  <unit id="about.founder.text.3">
-            <notes>
-				<note category="location">libs/about/about-feature/src/lib/about/about.component.html:17,19</note>
-			</notes>
-            <segment>
-				<source> History </source>
-				<target>My early years were shaped by my attendance at a certain bush school and wildlife orphanage,
-					here students from local schools learned the importance of conservation and environmental stewardship
-					alongside international volunteers. This experience not only deepened my commitment to protecting
-					nature but also instilled a strong sense of community responsibility, exemplified by my involvement
-					in the Road Safety PET project, where me and my peers created a PowerPoint presentation advocating for
-					improvements to the R36 road to reduce wildlife roadkills. My passion for wildlife and cultural exchange
-					reached new heights during my adventure in Europe, which reaffirmed my love for South Africa's breathtaking
-					landscapes and diverse wildlife—qualities that Europe simply does not possess—and further fueled my dedication
-					to promoting the beauty and conservation of my homeland.</target>
-            </segment>
-          </unit>
+		  <notes>
+			  <note category="location">libs/about/about-feature/src/lib/about/about.component.html:17,19</note>
+		  </notes>
+		  <segment>
+			  <source> experience </source>
+			  <target>In addition to her practical experience, Candice has enhanced her expertise by becoming a
+				  certified South African Specialist. The SA Specialist program is an interactive online learning
+				  platform designed to deepen one's understanding of South Africa's attractions and offerings. The
+				  Essentials course, which must be completed within 90 days, introduces participants to the country's
+				  main attractions and equips them with the skills to effectively promote South Africa as a tourist
+				  destination.
+			  </target>
+		  </segment>
+	  </unit>
+	  <unit id="about.founder.text.4">
+		  <notes>
+			  <note category="location">libs/about/about-feature/src/lib/about/about.component.html:20,22</note>
+		  </notes>
+		  <segment>
+			  <source> History </source>
+			  <target>Through her certification, Candice has demonstrated a comprehensive grasp of South Africa's
+				  tourism landscape, further enriching the safari experiences she provides. Her dedication to
+				  connecting people with nature and her specialized knowledge make her a distinguished figure in the
+				  safari consultancy industry.
+			  </target>
+		  </segment>
+	  </unit>
       <unit id="home.title">
         <notes>
           <note category="location">libs/common/common-ui/src/lib/navigation/navigation.component.html:8,9</note>
