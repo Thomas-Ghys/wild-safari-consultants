@@ -1,17 +1,41 @@
 .home-feature-container {
+	align-items: center;
+	background-attachment: fixed;
+	background-image: url("apps/wild-safari-consultants/public/safari/lions_roaring.jpeg");
+	background-position: center;
+	background-size: cover;
+	color: var(--theme-color-on-primary-fixed);
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
 	height: 100%;
+	overflow-x: hidden;
 	overflow-y: auto;
-	align-items: center;
+	width: 100%;
 
-	.home-feature-slogan-wrapper {
-		display: flex;
-		width: min(100%, 100rem);
+	.home-feature-container-wrapper {
 		align-items: center;
-		justify-content: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		padding: 1rem;
+
+		.home-feature-slogan {
+			align-items: center;
+			display: flex;
+			font-family: var(--theme-typescale-display-medium-font-family-name);
+			font-style: var(--theme-typescale-display-medium-font-family-style);
+			font-weight: var(--theme-typescale-display-medium-font-weight);
+			font-size: var(--theme-typescale-display-medium-font-size);
+			height: 100svh;
+			justify-content: center;
+			letter-spacing: var(--theme-typescale-display-medium-letter-spacing);
+			line-height: var(--theme-typescale-display-medium-line-height);
+			text-align: center;
+		}
 	}
+
+
 
 	.home-feature-welcome {
 		font-family: var(--theme-typescale-display-small-font-family-name);
@@ -20,7 +44,6 @@
 		font-size: var(--theme-typescale-display-small-font-size);
 		line-height: var(--theme-typescale-display-small-line-height);
 		letter-spacing: var(--theme-typescale-display-small-letter-spacing);
-		color: var(--theme-color-on-neutral-surface);
 	}
 
 	.home-feature-welcome-safari-message,
@@ -31,7 +54,6 @@
 		font-size: var(--theme-typescale-body-large-font-size);
 		line-height: var(--theme-typescale-body-large-line-height);
 		letter-spacing: var(--theme-typescale-body-large-letter-spacing);
-		color: var(--theme-color-on-neutral-surface);
 		display: flex;
 		width: min(100%, 100rem);
 		align-items: center;
