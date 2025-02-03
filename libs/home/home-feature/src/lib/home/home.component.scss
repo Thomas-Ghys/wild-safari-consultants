@@ -18,46 +18,54 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
-		padding: 1rem;
+		padding: 1rem 0 5rem 0;
 
 		.home-feature-slogan {
 			align-items: center;
 			display: flex;
-			font-family: var(--theme-typescale-display-medium-font-family-name);
-			font-style: var(--theme-typescale-display-medium-font-family-style);
-			font-weight: var(--theme-typescale-display-medium-font-weight);
-			font-size: var(--theme-typescale-display-medium-font-size);
+			font-family: var(--theme-typescale-display-large-font-family-name);
+			font-style: var(--theme-typescale-display-large-font-family-style);
+			font-weight: var(--theme-typescale-display-large-font-weight);
+			font-size: var(--theme-typescale-display-large-font-size);
 			height: 100svh;
 			justify-content: center;
-			letter-spacing: var(--theme-typescale-display-medium-letter-spacing);
-			line-height: var(--theme-typescale-display-medium-line-height);
+			letter-spacing: var(--theme-typescale-display-large-letter-spacing);
+			line-height: var(--theme-typescale-display-large-line-height);
 			text-align: center;
 		}
 	}
 
-
-
-	.home-feature-welcome {
-		font-family: var(--theme-typescale-display-small-font-family-name);
-		font-style: var(--theme-typescale-display-small-font-family-style);
-		font-weight: var(--theme-typescale-display-small-font-weight);
-		font-size: var(--theme-typescale-display-small-font-size);
-		line-height: var(--theme-typescale-display-small-line-height);
-		letter-spacing: var(--theme-typescale-display-small-letter-spacing);
-	}
-
-	.home-feature-welcome-safari-message,
-	.home-feature-welcome-message {
-		font-family: var(--theme-typescale-body-large-font-family-name);
-		font-style: var(--theme-typescale-body-large-font-family-style);
-		font-weight: var(--theme-typescale-body-large-font-weight);
-		font-size: var(--theme-typescale-body-large-font-size);
-		line-height: var(--theme-typescale-body-large-line-height);
-		letter-spacing: var(--theme-typescale-body-large-letter-spacing);
-		display: flex;
-		width: min(100%, 100rem);
+	.home-feature-introduction-wrapper {
 		align-items: center;
-		justify-content: center;
-		text-align: center;
+		background: color-mix(in srgb, var(--theme-color-neutral-surface) 20%, transparent);
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		padding: 1rem;
+
+		.home-feature-welcome {
+			font-family: var(--theme-typescale-display-small-font-family-name);
+			font-style: var(--theme-typescale-display-small-font-family-style);
+			font-weight: var(--theme-typescale-display-small-font-weight);
+			font-size: var(--theme-typescale-display-small-font-size);
+			line-height: var(--theme-typescale-display-small-line-height);
+			letter-spacing: var(--theme-typescale-display-small-letter-spacing);
+		}
+
+		.home-feature-welcome-safari-message,
+		.home-feature-welcome-message {
+			font-family: var(--theme-typescale-title-large-font-family-name);
+			font-style: var(--theme-typescale-title-large-font-family-style);
+			font-weight: var(--theme-typescale-title-large-font-weight);
+			font-size: var(--theme-typescale-title-large-font-size);
+			line-height: var(--theme-typescale-title-large-line-height);
+			letter-spacing: var(--theme-typescale-title-large-letter-spacing);
+			display: flex;
+			width: min(100%, 100rem);
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
 	}
 }
