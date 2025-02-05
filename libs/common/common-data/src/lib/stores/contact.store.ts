@@ -9,7 +9,7 @@ export type ContactStore = {
 const initialContactState: ContactStore = {
 	mobile: '+27631751299',
 	instagram: 'wildsafari.consultants',
-	email: 'botserakganya05@gmail.com'
+	email: 'wild-safari-consultants@outlook.com'
 };
 
 export const ContactStore = signalStore(
