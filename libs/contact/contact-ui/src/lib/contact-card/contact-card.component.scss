@@ -10,7 +10,7 @@
 	grid-template-columns: 2.5rem 1fr min-content;
 	overflow: hidden;
 	padding: 0.5rem 1rem;
-	width: 100%;
+	width: min(100%, 35rem);
 
 	&.breakpoint-xsmall {
 		grid-template-areas: "icon name" "buttons buttons";
