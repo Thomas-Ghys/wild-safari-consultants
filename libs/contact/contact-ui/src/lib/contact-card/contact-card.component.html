@@ -1,0 +1,51 @@
+<div class="contact-card-container"
+	 #fullscreenQRCode="cdkOverlayOrigin"
+	 Breakpoint
+	 cdkOverlayOrigin>
+	<section class="contact-card-icon-wrapper">
+		<img [src]="contactCardIcon()"/>
+	</section>
+	<section class="contact-card-name-wrapper">
+		<div>
+			<span>{{contactCardPrefix()}}</span>
+			<span>: </span>
+		</div>
+		<div class="contact-card-name-data">{{contactCardData()}}</div>
+	</section>
+	<section class="contact-card-buttons-wrapper">
+		@if (qrCode() !== '') {
+			<button class="contact-card-button"
+					(click)="toggleOverlay()">
+				<span class="material-symbols-outlined">qr_code</span>
+			</button>
+		}
+		<button class="contact-card-button"
+				(click)="OpenInNew()">
+			<span class="material-symbols-outlined">open_in_new</span>
+		</button>
+		<button class="contact-card-button"
+				[cdkCopyToClipboard]="contactCardData()">
+			<span class="material-symbols-outlined">content_copy</span>
+		</button>
+	</section>
+</div>
+
+<ng-template cdkConnectedOverlay
+			 [cdkConnectedOverlayOrigin]="fullscreenQRCode"
+			 [cdkConnectedOverlayOpen]="fullscreenQRCodeIsOpen"
+			 (detach)="fullscreenQRCodeIsOpen = false">
+	<div class="contact-card-fullscreen-overlay-wrapper">
+		<div class="contact-card-close-button-wrapper">
+			<button (click)="toggleOverlay()"
+					class="contact-card-close-button">
+				<span
+					class="material-symbols-outlined">close</span>
+			</button>
+		</div>
+		<div class="contact-card-qr-code-wrapper">
+			<img [src]="qrCode()"
+				 class="contact-card-qr-code"
+			/>
+		</div>
+	</div>
+</ng-template>

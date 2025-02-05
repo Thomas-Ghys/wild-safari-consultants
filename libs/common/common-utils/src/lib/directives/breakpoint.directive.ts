@@ -39,19 +39,6 @@ export class BreakpointDirective implements OnInit, OnDestroy {
 				Object.entries(Breakpoints).forEach(
 					([breakpoint, breakpointState]: [string, string]) => {
 						this.updateClassList(breakpoint, state);
-
-						this.computationalBreakpoints.forEach(
-							(computationalBreakpoint: string) => {
-								if (
-									state.breakpoints[
-										Breakpoints[
-											breakpoint as keyof typeof Breakpoints
-										]
-									]
-								) {
-								}
-							}
-						);
 					}
 				);
 
@@ -68,23 +55,17 @@ export class BreakpointDirective implements OnInit, OnDestroy {
 		breakpoint: string,
 		breakpointState: BreakpointState
 	) {
+		const breakpointName: string = 'breakpoint-' + breakpoint.toLowerCase();
+
 		if (
 			breakpointState.breakpoints[
 				Breakpoints[breakpoint as keyof typeof Breakpoints]
 			]
 		) {
-			this.element.nativeElement.classList.add(
-				`breakpoint-${breakpoint.toLowerCase()}`
-			);
-		} else if (
-			breakpointState.breakpoints[
-				Breakpoints[breakpoint as keyof typeof Breakpoints]
-			]
-		) {
-			this.element.nativeElement.classList.remove(
-				`breakpoint-${breakpoint.toLowerCase()}`
-			);
+			this.element.nativeElement.classList.add(breakpointName);
+			return;
 		}
+		this.element.nativeElement.classList.remove(breakpointName);
 	}
 
 	private updateComputationalClassList(breakpointState: BreakpointState) {
