@@ -9,7 +9,7 @@
     "locales": {
       "en": {
         "baseHref": "/en/",
-        "translation": "apps/wild-safari-consultants/public/locales/messages.en.xlf"
+        "translation": "apps/wild-safari-consultants/public/locales/messages.en.json"
       }
     }
   },
@@ -94,7 +94,7 @@
       "options": {
         "buildTarget": "wild-safari-consultants:build",
         "outputPath": "apps/wild-safari-consultants/public/locales",
-        "format": "xlf2"
+        "format": "json"
       }
     },
     "lint": {
