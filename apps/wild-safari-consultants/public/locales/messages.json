@@ -13,6 +13,9 @@
     "contact.title": "Contact",
     "page404.title": "Page not found",
     "page404.take-me-back": " Take me back! ",
+    "contact.contact-card.prefix.email": "Email",
+    "contact.contact-card.prefix.whatsapp": "Whatsapp",
+    "contact.contact-card.prefix.instagram": "Instagram",
     "explore.heading": " Our safaris disclaimer ",
     "safari-card.standard-package.day-1": " Day 1: ",
     "safari-card.standard-package.day-2": " Day 2: ",
@@ -52,8 +55,8 @@
     "safari-card.combo-package.day-4": " Day 4: ",
     "safari-card.combo-package.day-5": " Day 5: ",
     "gallery.gallery-image.": "of",
-    "home.welcome.slogan": " Your gateway to unforgettable safari experiences! ",
-    "home.welcome-message": " Welcome message ",
-    "home.welcome-safari-message": " Weclome safari message "
+    "common.slogan": " Your gateway to unforgettable safari experiences! ",
+    "home.welcome-message.paragraph_1": " Welcome message ",
+    "home.welcome-message.paragraph_2": " Weclome safari message "
   }
 }

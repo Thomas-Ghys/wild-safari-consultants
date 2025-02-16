@@ -10,12 +10,14 @@
 	</section>
 	<section class="contact-feature-cards-wrapper">
 		<lib-contact-card
+			i18n-contactCardPrefix="@@contact.contact-card.prefix.email"
 			contactCardIcon="logos/emailLogo.svg"
 			[contactCardData]="this.store.email()"
 			contactCardPrefix="Email"
 			(OpenLink)="openEmailClient()"
 		/>
 		<lib-contact-card
+			i18n-contactCardPrefix="@@contact.contact-card.prefix.whatsapp"
 			contactCardIcon="logos/whatsappLogo.svg"
 			[contactCardData]="this.store.mobile()"
 			contactCardPrefix="Whatsapp"
@@ -23,6 +25,7 @@
 			(OpenLink)="openPhoneClient()"
 		/>
 		<lib-contact-card
+			i18n-contactCardPrefix="@@contact.contact-card.prefix.instagram"
 			contactCardIcon="logos/instagramLogo.png"
 			[contactCardData]="this.store.instagram()"
 			contactCardPrefix="Instagram"
