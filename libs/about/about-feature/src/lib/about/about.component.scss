@@ -1,60 +1,57 @@
 .about-feature-container {
+	align-items: center;
+	background-attachment: fixed;
+	background-image: url("apps/wild-safari-consultants/public/safari/pexels/kruger_tree_on_a_rock.jpg");
+	background-position: center;
+	background-size: cover;
+	color: var(--theme-color-on-neutral-surface-fixed);
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+	height: 100%;
+	justify-content: center;
+	overflow-x: hidden;
 	overflow-y: auto;
-	height: inherit;
-	width: inherit;
+	width: 100%;
 
 	.about-feature-founder-container {
-		display: grid;
-		grid-template-rows: min-content 1fr;
-		grid-row-gap: 1rem;
-		width: 100%;
-		height: fit-content;
-		flex: 1;
-		flex-shrink: 0;
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		align-items: center;
 
-		.about-feature-founder-title {
-			font-family: var(--theme-typescale-display-small-font-family-name);
-			font-style: var(--theme-typescale-display-small-font-family-style);
-			font-weight: var(--theme-typescale-display-small-font-weight);
-			font-size: var(--theme-typescale-display-small-font-size);
-			line-height: var(--theme-typescale-display-small-line-height);
-			letter-spacing: var(--theme-typescale-display-small-letter-spacing);
-			color: var(--theme-color-on-neutral-surface);
+		.about-feature-founder-image {
+			width: 20rem;
 		}
 
-		.about-feature-founder-content {
-			display: grid;
-			grid-template-columns: 20rem 1fr;
-			grid-gap: 1rem;
-			font-family: var(--theme-typescale-body-large-font-family-name);
-			font-style: var(--theme-typescale-body-large-font-family-style);
-			font-weight: var(--theme-typescale-body-large-font-weight);
-			font-size: var(--theme-typescale-body-large-font-size);
-			line-height: var(--theme-typescale-body-large-line-height);
-			letter-spacing: var(--theme-typescale-body-large-letter-spacing);
-			color: var(--theme-color-on-neutral-surface);
+		.about-feature-founder-content-text {
+			background: color-mix(in srgb, var(--theme-color-neutral-surface) 75%, transparent);
+			box-sizing: border-box;
+			display: flex;
+			flex-direction: column;
+			font-family: var(--theme-typescale-title-small-font-family-name);
+			font-style: var(--theme-typescale-title-small-font-family-style);
+			font-weight: var(--theme-typescale-title-small-font-weight);
+			font-size: var(--theme-typescale-title-small-font-size);
+			gap: 1rem;
+			line-height: var(--theme-typescale-title-small-line-height);
+			letter-spacing: var(--theme-typescale-title-small-letter-spacing);
+			padding: 1rem;
+		}
+	}
 
-			&.breakpoint-smaller-than-medium {
-				grid-template-columns: 1fr;
+	.about-feature-certificates-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		justify-content: center;
 
-				img {
-					width: 50%;
-					justify-self: center;
-				}
-			}
-
-			img	{
-				width: 100%;
-			}
-
-			.about-feature-founder-content-text {
-				display: flex;
-				flex-direction: column;
-				gap: 1rem;
-			}
+		.about-feature-certificates-wrapper {
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: row;
+			gap: 1rem;
 		}
 	}
 }

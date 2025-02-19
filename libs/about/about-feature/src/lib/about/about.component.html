@@ -1,26 +1,34 @@
-<lib-feature-container featureName="About" i18n-featureName="@@about.title">
-	<div class="about-feature-container">
-		<section class="about-feature-founder-container">
-			<div class="about-feature-founder-title" i18n="@@about.founder">
-				Founder & Director:
-			</div>
-			<div class="about-feature-founder-content" Breakpoint>
-				<img [src]="'personal/founder.jpeg'" [alt]="'personal/founder.jpeg'"/>
-				<section class="about-feature-founder-content-text">
-					<div i18n="@@about.founder.text.1">
-						Introduction
-					</div>
-					<div i18n="@@about.founder.text.2">
-						Heritage
-					</div>
-					<div i18n="@@about.founder.text.3">
-						experience
-					</div>
-					<div class="about-feature-history-content-text" i18n="@@about.founder.text.4">
-						History
-					</div>
-				</section>
-			</div>
-		</section>
-	</div>
-</lib-feature-container>
+<div class="about-feature-container" Breakpoint>
+	<section class="about-feature-founder-container">
+		<img [src]="'personal/founder_no_background.png'"
+			 [alt]="'personal/founder.jpeg'"
+			 class="about-feature-founder-image"
+		/>
+		<div class="about-feature-founder-content-text">
+			<section i18n="@@about.founder.text.1">
+				Introduction
+			</section>
+			<section i18n="@@about.founder.text.2">
+				Heritage
+			</section>
+			<section i18n="@@about.founder.text.3">
+				experience
+			</section>
+			<section class="about-feature-history-content-text" i18n="@@about.founder.text.4">
+				History
+			</section>
+		</div>
+	</section>
+	<section class="about-feature-certificates-container">
+		<div class="about-feature-specialist-wrapper">
+			<img
+				[src]="'certificates/south_african_specialist.png'">
+		</div>
+		<div class="about-feature-certificates-wrapper">
+			<img
+				[src]="'certificates/wildlife_plus.png'">
+			<img
+				[src]="'certificates/culture_lifestyle_plus.png'">
+		</div>
+	</section>
+</div>
