@@ -13,11 +13,20 @@
 	overflow-y: auto;
 	width: 100%;
 
+	&.breakpoint-smaller-than-medium {
+		align-items: flex-start;
+		justify-content: flex-start;
+
+		.about-feature-founder-container {
+			flex-direction: column;
+		}
+	}
+
 	.about-feature-founder-container {
+		align-items: center;
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
-		align-items: center;
 
 		.about-feature-founder-image {
 			width: 20rem;
